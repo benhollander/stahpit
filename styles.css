@@ -1,0 +1,12 @@
+
+/* hide commonly used 'disable your ad blocker' messages */
+body.tp-modal-open { overflow: scroll !important; }
+.tp-modal,
+.tp-backdrop
+{
+    display: none !important;
+}
+
+/* remove animations in jenkins ui that cause excessive cpu usage */
+.cbwf-widget .progress.active .progress-bar, .cbwf-widget .progress-bar.active
+{ animation: none !important; -webkit-animation: none !important; -o-animation: none !important; }
