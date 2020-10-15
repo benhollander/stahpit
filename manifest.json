@@ -5,6 +5,13 @@
     "description": "Just some CSS overrides that fix things that annoy me",
     "content_scripts": [{
         "css": ["styles.css"],
-        "matches": ["<all_urls>"]
+        "matches": [
+            "*://jenkins.qa.indeed.net/*",
+            "*://*.nytimes.com/*",
+            "*://*.washingtonpost.com/*",
+            "*://*.forbes.com/*",
+            "*://mint.intuit.com/*",
+            "*://*.culturemap.com/*"
+        ]
     }]
 }
