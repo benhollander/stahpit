@@ -11,7 +11,11 @@
             "*://*.washingtonpost.com/*",
             "*://*.forbes.com/*",
             "*://mint.intuit.com/*",
-            "*://*.culturemap.com/*"
+            "*://*.culturemap.com/*",
+            "*://*.businessinsider.com/*",
+            "*://*.politico.com/*",
+            "*://*.usatoday.com/*",
+            "*://*.insider.com/*"
         ]
     }]
 }
