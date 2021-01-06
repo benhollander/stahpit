@@ -15,6 +15,7 @@
             "*://*.businessinsider.com/*",
             "*://*.politico.com/*",
             "*://*.usatoday.com/*",
+            "*://*.weather.com/*",
             "*://*.insider.com/*"
         ]
     }]
