@@ -7,6 +7,8 @@
         "css": ["styles.css"],
         "matches": [
             "*://jenkins.qa.indeed.net/*",
+            "*://jenkins.indeed.tech/*",
+            "*://*.latimes.com/*",
             "*://*.nytimes.com/*",
             "*://*.washingtonpost.com/*",
             "*://*.forbes.com/*",
@@ -16,7 +18,8 @@
             "*://*.politico.com/*",
             "*://*.usatoday.com/*",
             "*://*.weather.com/*",
-            "*://*.insider.com/*"
+            "*://*.insider.com/*",
+            "*://*.nbcsports.com/*"
         ]
     }]
 }
